@@ -1,0 +1,21 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+FileOrForderExist	svg_proc.py	/^def FileOrForderExist(filePath):$/;"	f
+FileProcess	svg_proc.py	/^def FileProcess(filePath):$/;"	f
+ForderProcess	svg_proc.py	/^def ForderProcess(filePath):$/;"	f
+add_child_node	xmlparssing.py	/^def add_child_node(nodelist, element):$/;"	f
+change_node_properties	xmlparssing.py	/^def change_node_properties(nodelist, kv_map, is_delete=False):$/;"	f
+change_node_text	xmlparssing.py	/^def change_node_text(nodelist, text, is_add=False, is_delete=False):$/;"	f
+create_node	xmlparssing.py	/^def create_node(tag, property_map, content):$/;"	f
+del_node_by_tagkeyvalue	xmlparssing.py	/^def del_node_by_tagkeyvalue(nodelist, tag, kv_map):$/;"	f
+find_nodes	xmlparssing.py	/^def find_nodes(tree, path):$/;"	f
+get_node_by_keyvalue	xmlparssing.py	/^def get_node_by_keyvalue(nodelist, kv_map):$/;"	f
+getfileName	svg_proc.py	/^def getfileName(filePath):$/;"	f
+if_match	xmlparssing.py	/^def if_match(node, kv_map):$/;"	f
+read_xml	xmlparssing.py	/^def read_xml(filePath):$/;"	f
+showHelp	svg_proc.py	/^def showHelp():$/;"	f
+write_xml	xmlparssing.py	/^def write_xml(tree, out_path):$/;"	f
