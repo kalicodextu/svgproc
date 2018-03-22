@@ -1,12 +1,14 @@
-from xml.etree.ElementTree import ElementTree,Element
+from xml.etree.ElementTree import ElementTree,Element,register_namespace
  
 def read_xml(filePath):
+    register_namespace('', "http://www.w3.org/2000/svg")
+    register_namespace('xlink', "http://www.w3.org/1999/xlink")
     tree = ElementTree()
     tree.parse(filePath)
     return tree
  
 def write_xml(tree, out_path):
-    tree.write(out_path, encoding="utf-8",xml_declaration=True)
+    tree.write(out_path, encoding="utf-8", xml_declaration=True, method='xml')
  
 def if_match(node, kv_map):
     # have all given attrs or not
